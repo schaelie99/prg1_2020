@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //ue oop_02
         Book book1 = new Book("Herr der Ringe Teil 1", "J.R.R. Tolkien", 20.5, 2003);
-        System.out.printf("%s, %s, %f, %d", book1.getTitel(), book1.getAutor(), book1.getPreis(), book1.getKaufjahr());
+        System.out.printf("%s%n%s%n%f%n%d%n", book1.getTitel(), book1.getAutor(), book1.getPreis(), book1.getKaufjahr());
 
         System.out.println("");
 
